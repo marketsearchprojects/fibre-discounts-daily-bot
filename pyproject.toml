@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fibre-discounts-daily-bot"
+version = "0.1.0"
+description = "Approval-gated educational Reddit bot for r/FibreDiscounts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["requests>=2.32,<3"]
+
+[project.scripts]
+fibre-discounts-bot = "fibre_bot.main:cli"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
