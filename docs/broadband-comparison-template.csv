@@ -1,3 +1,0 @@
-scenario,comparison_months,broadband_monthly_gbp,required_extras_monthly_gbp,setup_and_delivery_gbp,exit_and_overlap_gbp,conditional_customer_reward_gbp,confirmed_combinable_reimbursement_gbp,gross_cost_gbp,net_if_reward_received_gbp,net_monthly_equivalent_gbp,notes
-Illustrative Offer A,24,28.00,3.00,0.00,0.00,50.00,0.00,744.00,694.00,28.92,"Invented example; no price changes; reward conditional; recalculate after editing inputs"
-Illustrative Offer B,24,30.00,0.00,0.00,0.00,0.00,0.00,720.00,720.00,30.00,"Invented example; no price changes; recalculate after editing inputs"
