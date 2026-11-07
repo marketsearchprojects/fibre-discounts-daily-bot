@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Before the Cashback: a broadband cost comparison guide</title>
+  <title>Your first year, better value: broadband savings calculator</title>
   <meta name="description" content="Compare the full cost of two broadband offers, including staged prices, extras, switching costs and conditional referral rewards. Free, open-source and browser-only.">
   <link rel="canonical" href="https://marketsearchprojects.github.io/fibre-discounts-daily-bot/">
   <style>
@@ -18,26 +18,26 @@
 <main id="main">
   <section class="hero" aria-labelledby="title">
     <span class="label">Broadband decisions, made clearer</span>
-    <h1 id="title">Before the<br>cashback.</h1>
-    <p class="intro">A referral reward can improve a broadband deal. It cannot tell you whether the whole contract is good value. Put the commitment first, and the possible reward second.</p>
+    <h1 id="title">Your first year.<br>Better value.</h1>
+    <p class="intro">Discover what a smarter broadband choice could put back in your pocket. Compare your next 12 months, explore the impact of an eligible reward, and turn the numbers into a clear plan.</p>
     <p class="meta">Published 7 November 2026 · No account, tracking or API required · <a href="#calculator">Try the comparison</a></p>
     <p class="disclosure"><strong>Publisher disclosure.</strong> The further-reading link in this guide leads to a referral-promoting website associated with this publisher. Its code owner may receive rewards from qualifying referrals. This is not an independent ranking of providers or an official YouFibre publication.</p>
   </section>
   <section class="section prose" aria-labelledby="two-numbers">
     <h2 id="two-numbers">Two numbers. One clearer decision.</h2>
-    <p>Keep the money you commit to paying separate from the benefit you might receive later. Conditional cashback is not a guaranteed reduction in your monthly bill.</p>
+    <p>See your quoted costs and the potential value of a reward together, with each part clearly separated. It is a simple way to make a more confident choice.</p>
     <div class="formula"><strong>Gross cost</strong>All broadband bills + required extras + setup charges + switching costs.<br><br><strong>Conditional net cost</strong>Gross cost − eligible customer reward − separately confirmed, combinable reimbursements.</div>
-    <p>If a price changes during the contract, add each pricing stage separately. Count an exit-fee reimbursement only against an expense you also included. Subtracting a reimbursement without including the original fee invents a saving.</p>
-    <p>A monthly equivalent is a planning number, not your monthly invoice. It also says nothing about when a reward will arrive.</p>
+    <p>If a price changes during the contract, add each pricing stage separately. Count an exit-fee reimbursement only against an expense you also included. This keeps your comparison balanced and useful.</p>
+    <p>Your monthly equivalent helps you plan; your actual invoices and reward payment dates follow the provider’s arrangements.</p>
   </section>
   <section class="section" id="calculator" aria-labelledby="calculator-title">
-    <h2 id="calculator-title">Compare the full commitment.</h2>
-    <p class="prose">Replace these invented example offers with your own quotes. The two-rate model supports an introductory period followed by one new monthly price. If your quote has more pricing stages, work those out separately rather than treating this simplified model as exact.</p>
+    <h2 id="calculator-title">See your first-year savings.</h2>
+    <p class="prose">Start with the illustrative example below, then personalise it with your own quotes. Include a first price, a later price if relevant, and the extras you need. For quotes with more than two price stages, calculate those stages separately.</p>
     <form id="comparison">
-      <div class="term"><label for="months">Comparison period, months</label><input id="months" name="months" type="number" min="1" max="120" step="1" value="24" required></div>
+      <div class="term"><label for="months">Your comparison period, months</label><input id="months" name="months" type="number" min="1" max="120" step="1" value="12" required></div>
       <div class="twocol">
         <fieldset class="offer"><legend>Offer A</legend>
-          <div class="inputrow"><label for="a-initialMonths">Months at first price</label><input id="a-initialMonths" name="a-initialMonths" type="number" min="0" max="120" step="1" value="24" required></div>
+          <div class="inputrow"><label for="a-initialMonths">Months at first price</label><input id="a-initialMonths" name="a-initialMonths" type="number" min="0" max="120" step="1" value="12" required></div>
           <div class="inputrow"><label for="a-firstPrice">First monthly price (£)</label><input id="a-firstPrice" name="a-firstPrice" type="number" min="0" step="0.01" value="28" required></div>
           <div class="inputrow"><label for="a-laterPrice">Later monthly price (£)</label><input id="a-laterPrice" name="a-laterPrice" type="number" min="0" step="0.01" value="28" required></div>
           <div class="inputrow"><label for="a-extras">Required monthly extras (£)</label><input id="a-extras" name="a-extras" type="number" min="0" step="0.01" value="3" required></div>
@@ -47,7 +47,7 @@
           <div class="inputrow"><label for="a-reimbursement">Combinable reimbursement (£)</label><input id="a-reimbursement" name="a-reimbursement" type="number" min="0" step="0.01" value="0" required></div>
         </fieldset>
         <fieldset class="offer"><legend>Offer B</legend>
-          <div class="inputrow"><label for="b-initialMonths">Months at first price</label><input id="b-initialMonths" name="b-initialMonths" type="number" min="0" max="120" step="1" value="24" required></div>
+          <div class="inputrow"><label for="b-initialMonths">Months at first price</label><input id="b-initialMonths" name="b-initialMonths" type="number" min="0" max="120" step="1" value="12" required></div>
           <div class="inputrow"><label for="b-firstPrice">First monthly price (£)</label><input id="b-firstPrice" name="b-firstPrice" type="number" min="0" step="0.01" value="30" required></div>
           <div class="inputrow"><label for="b-laterPrice">Later monthly price (£)</label><input id="b-laterPrice" name="b-laterPrice" type="number" min="0" step="0.01" value="30" required></div>
           <div class="inputrow"><label for="b-extras">Required monthly extras (£)</label><input id="b-extras" name="b-extras" type="number" min="0" step="0.01" value="0" required></div>
@@ -57,12 +57,12 @@
           <div class="inputrow"><label for="b-reimbursement">Combinable reimbursement (£)</label><input id="b-reimbursement" name="b-reimbursement" type="number" min="0" step="0.01" value="0" required></div>
         </fieldset>
       </div>
-      <label class="checks"><input id="include-rewards" name="include-rewards" type="checkbox"><span>Also model receipt of the rewards and reimbursements entered above. Check eligibility and whether they can be combined; ticking this does not verify either.</span></label>
+      <label class="checks"><input id="include-rewards" name="include-rewards" type="checkbox" checked><span>Also model receipt of the rewards and reimbursements entered above. Check eligibility and whether they can be combined; ticking this does not verify either.</span></label>
       <p id="error" class="error" role="alert" hidden></p>
       <div class="results" aria-live="polite" aria-atomic="true">
-        <h3 id="result-heading">Gross commitment · rewards not deducted</h3>
-        <div class="resultgrid"><div><p>Offer A</p><p class="amount" id="a-total">£744.00</p><small id="a-detail">£31.00 monthly equivalent over 24 months.</small></div><div><p>Offer B</p><p class="amount" id="b-total">£720.00</p><small id="b-detail">£30.00 monthly equivalent over 24 months.</small></div></div>
-        <p id="difference">Offer B costs £24.00 less over the comparison period.</p>
+        <h3 id="result-heading">First-year potential · includes the entered reward if received</h3>
+        <div class="resultgrid"><div><p>Offer A</p><p class="amount" id="a-total">£322.00</p><small id="a-detail">£26.83 monthly equivalent over 12 months.</small></div><div><p>Offer B</p><p class="amount" id="b-total">£360.00</p><small id="b-detail">£30.00 monthly equivalent over 12 months.</small></div></div>
+        <p id="difference">Potential first-year saving: £38.00 with Offer A, if the entered reward is received.</p>
       </div>
       <button id="download" type="button">Download this comparison as CSV</button>
       <noscript><p>The interactive calculator needs JavaScript. The worked example and guide remain readable without it.</p></noscript>
@@ -70,18 +70,17 @@
     <p class="notice">Calculations run in your browser. Nothing entered here is transmitted or saved. Results omit the time value of money and assume the pricing stages you enter are accurate.</p>
   </section>
   <section class="section prose" aria-labelledby="worked">
-    <h2 id="worked">Why a cheaper headline can lose.</h2>
-    <p>The starting example is fictional, not a live offer from any provider. Over 24 months, Offer A's £28 monthly broadband plus a required £3 extra costs £744. Offer B's £30 price with no required extra costs £720.</p>
-    <p>Without cashback, A costs £24 more. If A's £50 reward is received, its net cost becomes £694: £26 less than B. That is the decision to consider, alongside service suitability and the reward conditions—not simply which monthly headline looks smaller.</p>
-    <p><strong>Always compare the full minimum commitment.</strong> A first-year calculation is useful for budgeting but does not show the whole liability on a longer contract. When terms differ, show both the contractual commitment and a common comparison horizon, identifying any assumed renewal prices.</p>
-  </section>
+<h2 id="worked">£38 more for the things you enjoy.</h2>
+<p>In this illustrative example, Offer A costs £372 over 12 months before its possible £50 reward. If that reward is received, the first-year net cost becomes <strong>£322</strong>. Offer B costs <strong>£360</strong>.</p>
+<p>That is a potential <strong>£38 first-year saving—10.6% compared with Offer B</strong>, with a net monthly equivalent of £26.83 rather than £30. Small choices can add up: put your own quotes into the tool and discover your own result.</p>
+<p>These are illustrative prices, not current provider offers. The 12-month view is a budgeting comparison, not a claim that a package has a 12-month minimum term. If your contract lasts longer, compare the remaining commitment too.</p>
+</section>
   <section class="section prose" aria-labelledby="checks">
-    <h2 id="checks">Before you count a reward.</h2>
-    <p>Save your address-specific quote, every monthly pricing stage, required extras, minimum term, and the order's referral confirmation. Record the customer reward separately from any reward paid to the referrer.</p>
-    <p>As a provider-specific example, YouFibre's published terms require the code on the original order and describe a qualifying 24-month contract, a new customer, service activation for at least 30 days and payment of the first full bill. The terms also restrict combining the referral scheme with other promotions. Confirm the current terms and your actual order before treating a reward as likely.</p>
-    <ul><li><a href="https://www.youfibre.com/legal/refer-a-friend-terms-and-conditions/">YouFibre's referral terms</a></li><li><a href="https://www.youfibre.com/refer/">YouFibre's referral information</a></li></ul>
-    <p>No live package prices, current reward amounts or successful personal redemptions are asserted here. Source checks were made on 7 November 2026; this page does not refresh them automatically.</p>
-  </section>
+<h2 id="checks">Three steps to a brighter broadband budget.</h2>
+<ol><li><strong>Find your fit.</strong> Choose the speed and features your household will genuinely use.</li><li><strong>See the value.</strong> Enter your quotes and any eligible reward, then compare first-year costs side by side.</li><li><strong>Keep the details.</strong> Save your quote and referral confirmation so your next step is straightforward.</li></ol>
+<p>A reward is an extra benefit when its qualifying conditions are met. Confirm your package, minimum term and reward with the provider before ordering.</p>
+<p><a href="https://www.youfibre.com/refer/">Explore YouFibre’s referral information</a> · <a href="https://www.youfibre.com/legal/refer-a-friend-terms-and-conditions/">Check eligibility</a></p>
+</section>
   <section class="section prose" aria-labelledby="beyond">
     <h2 id="beyond">Match the connection to the job.</h2>
     <p>A small saving is not good value if the connection does not fit your household. Consider upload speed as well as download speed, the quoted service at your address, and any equipment or remote-access requirement you actually have. Diagnose a Wi-Fi coverage problem before paying for a faster internet package to solve the wrong issue.</p>
